@@ -14,7 +14,25 @@
     "rating": 4.6,
     "isPopular": true,
     "isFeatured": true,
-    "imageUrl": "https://data.thefeedfeed.com/static/2021/04/06/1617726496606c8c20a7a82.jpg"
+    "imageUrl": "https://data.thefeedfeed.com/static/2021/04/06/1617726496606c8c20a7a82.jpg",
+    "ingredients": [
+      "2 slices sourdough bread",
+      "1 ripe avocado",
+      "2 eggs",
+      "1 tbsp lemon juice",
+      "1 tbsp olive oil",
+      "Salt, to taste",
+      "Black pepper, to taste",
+      "Chili flakes, optional"
+    ],
+    "steps": [
+      "Toast the sourdough slices until golden and crisp.",
+      "Mash the avocado with lemon juice, salt, and black pepper.",
+      "Poach the eggs in gently simmering water until the whites are set.",
+      "Spread the mashed avocado evenly over the toast.",
+      "Top each slice with a poached egg.",
+      "Drizzle with olive oil and sprinkle with chili flakes before serving."
+    ]
   },
   {
     "id": "r2",
@@ -31,7 +49,26 @@
     "rating": 4.7,
     "isPopular": true,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1528207776546-365bb710ee93"
+    "imageUrl": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "ingredients": [
+      "1 1/2 cups all-purpose flour",
+      "2 tbsp sugar",
+      "1 tbsp baking powder",
+      "1/4 tsp salt",
+      "1 1/4 cups milk",
+      "1 egg",
+      "3 tbsp melted butter",
+      "Maple syrup, for serving"
+    ],
+    "steps": [
+      "Mix flour, sugar, baking powder, and salt in a bowl.",
+      "Whisk milk, egg, and melted butter in another bowl.",
+      "Pour the wet mixture into the dry ingredients and stir until just combined.",
+      "Heat a non-stick pan over medium heat and lightly grease it.",
+      "Pour batter into the pan and cook until bubbles form on top.",
+      "Flip and cook the other side until golden.",
+      "Serve warm with maple syrup."
+    ]
   },
   {
     "id": "r3",
@@ -48,7 +85,24 @@
     "rating": 4.5,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1484723091739-30a097e8f929"
+    "imageUrl": "https://images.unsplash.com/photo-1484723091739-30a097e8f929",
+    "ingredients": [
+      "4 slices bread",
+      "2 eggs",
+      "1/2 cup milk",
+      "1 tsp cinnamon",
+      "1 tbsp sugar",
+      "1 tsp vanilla extract",
+      "1 tbsp butter",
+      "Honey or syrup, for serving"
+    ],
+    "steps": [
+      "Whisk eggs, milk, cinnamon, sugar, and vanilla in a shallow bowl.",
+      "Dip each bread slice into the egg mixture on both sides.",
+      "Melt butter in a pan over medium heat.",
+      "Cook the bread slices until golden brown on each side.",
+      "Serve warm with honey, syrup, or fresh fruit."
+    ]
   },
   {
     "id": "r4",
@@ -65,7 +119,26 @@
     "rating": 4.8,
     "isPopular": true,
     "isFeatured": true,
-    "imageUrl": "https://images.unsplash.com/photo-1559847844-5315695dadae"
+    "imageUrl": "https://images.unsplash.com/photo-1559847844-5315695dadae",
+    "ingredients": [
+      "2 English muffins, split",
+      "4 eggs",
+      "4 slices ham or bacon",
+      "2 egg yolks",
+      "100 g melted butter",
+      "1 tbsp lemon juice",
+      "Salt, to taste",
+      "Cayenne pepper, optional"
+    ],
+    "steps": [
+      "Toast the English muffins until lightly crisp.",
+      "Pan-fry the ham or bacon until warm and slightly browned.",
+      "Poach the eggs in simmering water until the whites are set.",
+      "Whisk egg yolks and lemon juice over gentle heat.",
+      "Slowly add melted butter while whisking until the sauce thickens.",
+      "Season the hollandaise with salt and cayenne pepper.",
+      "Assemble muffins with ham, poached eggs, and hollandaise sauce."
+    ]
   },
   {
     "id": "r5",
@@ -82,7 +155,23 @@
     "rating": 4.4,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea"
+    "imageUrl": "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea",
+    "ingredients": [
+      "1 frozen banana",
+      "1 cup frozen mixed berries",
+      "1/2 cup yogurt",
+      "1/4 cup milk",
+      "1 tbsp honey",
+      "1/4 cup granola",
+      "Fresh fruits, for topping",
+      "Chia seeds, optional"
+    ],
+    "steps": [
+      "Blend banana, berries, yogurt, milk, and honey until smooth and thick.",
+      "Pour the smoothie into a bowl.",
+      "Top with granola, fresh fruits, and chia seeds.",
+      "Serve immediately while chilled."
+    ]
   },
   {
     "id": "r6",
@@ -99,7 +188,26 @@
     "rating": 4.4,
     "isPopular": true,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1546793665-c74683f339c1"
+    "imageUrl": "https://images.unsplash.com/photo-1546793665-c74683f339c1",
+    "ingredients": [
+      "2 chicken breasts",
+      "1 romaine lettuce head, chopped",
+      "1/2 cup Caesar dressing",
+      "1/4 cup grated parmesan cheese",
+      "1 cup croutons",
+      "1 tbsp olive oil",
+      "Salt, to taste",
+      "Black pepper, to taste"
+    ],
+    "steps": [
+      "Season chicken breasts with salt and black pepper.",
+      "Heat olive oil in a pan and cook chicken until fully cooked.",
+      "Let the chicken rest, then slice it thinly.",
+      "Place chopped romaine lettuce in a large bowl.",
+      "Toss with Caesar dressing until evenly coated.",
+      "Add sliced chicken, parmesan cheese, and croutons.",
+      "Serve immediately."
+    ]
   },
   {
     "id": "r7",
@@ -116,7 +224,25 @@
     "rating": 4.5,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af"
+    "imageUrl": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af",
+    "ingredients": [
+      "3 slices sandwich bread",
+      "100 g cooked chicken slices",
+      "2 slices bacon",
+      "1 slice cheese",
+      "2 lettuce leaves",
+      "2 tomato slices",
+      "1 tbsp mayonnaise",
+      "Salt and pepper, to taste"
+    ],
+    "steps": [
+      "Toast the bread slices until golden.",
+      "Cook bacon until crisp.",
+      "Spread mayonnaise on each slice of toast.",
+      "Layer chicken, bacon, cheese, lettuce, and tomato between the bread slices.",
+      "Season lightly with salt and pepper.",
+      "Cut into triangles and serve."
+    ]
   },
   {
     "id": "r8",
@@ -133,7 +259,28 @@
     "rating": 4.7,
     "isPopular": true,
     "isFeatured": true,
-    "imageUrl": "https://images.unsplash.com/photo-1559314809-0d155014e29e"
+    "imageUrl": "https://images.unsplash.com/photo-1559314809-0d155014e29e",
+    "ingredients": [
+      "200 g rice noodles",
+      "150 g shrimp, peeled",
+      "2 eggs",
+      "1 cup bean sprouts",
+      "2 tbsp tamarind paste",
+      "2 tbsp fish sauce",
+      "1 tbsp sugar",
+      "1/4 cup crushed peanuts",
+      "Lime wedges, for serving",
+      "Spring onions, chopped"
+    ],
+    "steps": [
+      "Soak rice noodles according to package instructions.",
+      "Mix tamarind paste, fish sauce, and sugar to make the sauce.",
+      "Heat oil in a wok and stir-fry shrimp until pink.",
+      "Push shrimp aside and scramble the eggs.",
+      "Add noodles and sauce, then toss well.",
+      "Add bean sprouts and spring onions and stir-fry briefly.",
+      "Top with crushed peanuts and serve with lime wedges."
+    ]
   },
   {
     "id": "r9",
@@ -150,7 +297,24 @@
     "rating": 4.9,
     "isPopular": true,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3"
+    "imageUrl": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3",
+    "ingredients": [
+      "1 pizza dough",
+      "1/2 cup tomato sauce",
+      "200 g mozzarella cheese",
+      "Fresh basil leaves",
+      "1 tbsp olive oil",
+      "Salt, to taste",
+      "Flour, for dusting"
+    ],
+    "steps": [
+      "Preheat the oven to high heat.",
+      "Roll out the pizza dough on a floured surface.",
+      "Spread tomato sauce evenly over the dough.",
+      "Top with mozzarella cheese and a pinch of salt.",
+      "Bake until the crust is golden and the cheese is bubbling.",
+      "Add fresh basil leaves and drizzle with olive oil before serving."
+    ]
   },
   {
     "id": "r10",
@@ -167,7 +331,28 @@
     "rating": 4.8,
     "isPopular": true,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+    "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+    "ingredients": [
+      "300 g ground beef",
+      "2 burger buns",
+      "2 slices cheddar cheese",
+      "2 lettuce leaves",
+      "1 tomato, sliced",
+      "1/2 onion, sliced",
+      "2 tbsp mayonnaise",
+      "1 tbsp ketchup",
+      "Salt and pepper, to taste"
+    ],
+    "steps": [
+      "Shape ground beef into burger patties.",
+      "Season both sides with salt and pepper.",
+      "Cook patties in a hot pan or grill until done.",
+      "Add cheese on top and let it melt.",
+      "Toast the burger buns lightly.",
+      "Mix mayonnaise and ketchup for the sauce.",
+      "Assemble buns with lettuce, tomato, patty, onion, and sauce.",
+      "Serve warm."
+    ]
   },
   {
     "id": "r11",
@@ -184,7 +369,28 @@
     "rating": 4.9,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c"
+    "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c",
+    "ingredients": [
+      "2 cups sushi rice",
+      "3 tbsp rice vinegar",
+      "1 tbsp sugar",
+      "1 tsp salt",
+      "Nori sheets",
+      "150 g salmon, sliced",
+      "150 g tuna, sliced",
+      "1 cucumber, sliced",
+      "Soy sauce, for serving",
+      "Wasabi and pickled ginger, optional"
+    ],
+    "steps": [
+      "Cook sushi rice and let it cool slightly.",
+      "Mix rice vinegar, sugar, and salt, then fold into the rice.",
+      "Prepare sliced fish, cucumber, and nori sheets.",
+      "Shape rice into small portions for nigiri or spread on nori for rolls.",
+      "Add fish or fillings and roll tightly if making maki.",
+      "Slice rolls with a sharp knife.",
+      "Serve with soy sauce, wasabi, and pickled ginger."
+    ]
   },
   {
     "id": "r12",
@@ -201,7 +407,29 @@
     "rating": 4.9,
     "isPopular": true,
     "isFeatured": true,
-    "imageUrl": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398"
+    "imageUrl": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+    "ingredients": [
+      "500 g chicken pieces",
+      "1 cup yogurt",
+      "2 tbsp butter",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1 tbsp ginger, grated",
+      "1 cup tomato puree",
+      "1/2 cup cream",
+      "1 tbsp garam masala",
+      "1 tsp chili powder",
+      "Salt, to taste"
+    ],
+    "steps": [
+      "Marinate chicken with yogurt, salt, chili powder, and garam masala.",
+      "Cook the marinated chicken until browned.",
+      "Melt butter in a pot and sauté onion, garlic, and ginger.",
+      "Add tomato puree and simmer until thickened.",
+      "Add chicken and cook until tender.",
+      "Stir in cream and simmer for a few minutes.",
+      "Adjust seasoning and serve hot."
+    ]
   },
   {
     "id": "r13",
@@ -218,7 +446,27 @@
     "rating": 4.8,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947"
+    "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947",
+    "ingredients": [
+      "2 beef steaks",
+      "2 tbsp olive oil",
+      "2 cloves garlic, crushed",
+      "1 cup broccoli florets",
+      "1 carrot, sliced",
+      "1 bell pepper, sliced",
+      "Salt, to taste",
+      "Black pepper, to taste",
+      "1 tbsp butter"
+    ],
+    "steps": [
+      "Season steaks with salt and black pepper.",
+      "Toss vegetables with olive oil and a pinch of salt.",
+      "Roast or pan-cook the vegetables until tender.",
+      "Heat a pan until hot and sear steaks on both sides.",
+      "Add garlic and butter, then baste the steaks.",
+      "Rest the steaks for a few minutes before slicing.",
+      "Serve with roasted vegetables."
+    ]
   },
   {
     "id": "r14",
@@ -235,7 +483,26 @@
     "rating": 4.7,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1467003909585-2f8a72700288"
+    "imageUrl": "https://images.unsplash.com/photo-1467003909585-2f8a72700288",
+    "ingredients": [
+      "2 salmon fillets",
+      "3 tbsp soy sauce",
+      "2 tbsp mirin",
+      "1 tbsp sugar",
+      "1 tbsp sake or water",
+      "1 tsp grated ginger",
+      "1 tbsp oil",
+      "Sesame seeds, optional"
+    ],
+    "steps": [
+      "Mix soy sauce, mirin, sugar, sake, and ginger to make teriyaki sauce.",
+      "Pat salmon fillets dry.",
+      "Heat oil in a pan and sear salmon skin-side down.",
+      "Flip and cook until nearly done.",
+      "Pour in teriyaki sauce and simmer until glossy.",
+      "Spoon sauce over the salmon.",
+      "Garnish with sesame seeds and serve."
+    ]
   },
   {
     "id": "r15",
@@ -252,7 +519,32 @@
     "rating": 4.9,
     "isPopular": true,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43"
+    "imageUrl": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43",
+    "ingredients": [
+      "1 kg beef bones",
+      "400 g beef brisket",
+      "300 g rice noodles",
+      "1 onion, halved",
+      "1 piece ginger, sliced",
+      "3 star anise",
+      "1 cinnamon stick",
+      "2 tbsp fish sauce",
+      "Bean sprouts",
+      "Fresh basil and coriander",
+      "Lime wedges",
+      "Sliced chili"
+    ],
+    "steps": [
+      "Char onion and ginger until fragrant.",
+      "Simmer beef bones and brisket with onion, ginger, star anise, and cinnamon.",
+      "Skim the broth regularly for a clear soup.",
+      "Cook until the broth is rich and the beef is tender.",
+      "Season with fish sauce and salt.",
+      "Prepare rice noodles according to package instructions.",
+      "Place noodles and sliced beef in bowls.",
+      "Pour hot broth over the noodles.",
+      "Serve with herbs, bean sprouts, lime, and chili."
+    ]
   },
   {
     "id": "r16",
@@ -269,7 +561,28 @@
     "rating": 4.7,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1513442542250-854d436a73f2"
+    "imageUrl": "https://images.unsplash.com/photo-1513442542250-854d436a73f2",
+    "ingredients": [
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "1 bell pepper, chopped",
+      "2 cloves garlic, minced",
+      "1 can chopped tomatoes",
+      "1 tsp cumin",
+      "1 tsp paprika",
+      "4 eggs",
+      "Salt and pepper, to taste",
+      "Fresh parsley, chopped"
+    ],
+    "steps": [
+      "Heat olive oil in a pan and sauté onion and bell pepper.",
+      "Add garlic, cumin, and paprika and cook until fragrant.",
+      "Pour in chopped tomatoes and simmer until slightly thickened.",
+      "Season with salt and pepper.",
+      "Make small wells in the sauce and crack in the eggs.",
+      "Cover and cook until the eggs are set.",
+      "Garnish with parsley and serve warm."
+    ]
   },
   {
     "id": "r17",
@@ -286,7 +599,25 @@
     "rating": 4.6,
     "isPopular": true,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f"
+    "imageUrl": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f",
+    "ingredients": [
+      "2 large tortillas",
+      "4 eggs",
+      "100 g sausage, cooked",
+      "1/2 cup shredded cheese",
+      "1/4 cup salsa",
+      "1/4 cup diced bell pepper",
+      "1 tbsp butter",
+      "Salt and pepper, to taste"
+    ],
+    "steps": [
+      "Scramble eggs with salt and pepper in butter.",
+      "Warm the tortillas in a pan.",
+      "Place eggs, sausage, cheese, salsa, and bell pepper in each tortilla.",
+      "Fold in the sides and roll tightly into burritos.",
+      "Toast the burritos seam-side down until lightly golden.",
+      "Serve warm."
+    ]
   },
   {
     "id": "r18",
@@ -303,7 +634,24 @@
     "rating": 4.5,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff"
+    "imageUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff",
+    "ingredients": [
+      "1 croissant",
+      "1 egg",
+      "2 slices ham",
+      "1 slice cheese",
+      "1 tbsp butter",
+      "Salt and pepper, to taste",
+      "Lettuce, optional"
+    ],
+    "steps": [
+      "Slice the croissant in half.",
+      "Cook the egg in butter and season with salt and pepper.",
+      "Warm the ham in the pan.",
+      "Place ham, cheese, egg, and lettuce inside the croissant.",
+      "Close the sandwich and warm briefly until the cheese softens.",
+      "Serve immediately."
+    ]
   },
   {
     "id": "r19",
@@ -320,7 +668,29 @@
     "rating": 4.8,
     "isPopular": true,
     "isFeatured": true,
-    "imageUrl": "https://images.unsplash.com/photo-1553163147-622ab57be1c7"
+    "imageUrl": "https://images.unsplash.com/photo-1553163147-622ab57be1c7",
+    "ingredients": [
+      "2 cups cooked rice",
+      "150 g beef strips",
+      "1 carrot, julienned",
+      "1 cup spinach",
+      "1 cup bean sprouts",
+      "1 zucchini, sliced",
+      "2 eggs",
+      "2 tbsp gochujang",
+      "1 tbsp sesame oil",
+      "Soy sauce, to taste",
+      "Sesame seeds, optional"
+    ],
+    "steps": [
+      "Season beef with soy sauce and sesame oil, then stir-fry until cooked.",
+      "Cook carrot, spinach, bean sprouts, and zucchini separately until tender.",
+      "Fry eggs sunny-side up.",
+      "Place cooked rice in bowls.",
+      "Arrange beef and vegetables over the rice.",
+      "Top each bowl with an egg.",
+      "Add gochujang and sesame seeds before mixing and serving."
+    ]
   },
   {
     "id": "r20",
@@ -337,7 +707,28 @@
     "rating": 4.7,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1565299585323-38174c4a6471"
+    "imageUrl": "https://images.unsplash.com/photo-1565299585323-38174c4a6471",
+    "ingredients": [
+      "300 g white fish fillets",
+      "6 small tortillas",
+      "1 cup shredded cabbage",
+      "1/4 cup mayonnaise",
+      "1 tbsp lime juice",
+      "1 tsp chili powder",
+      "1/2 cup flour",
+      "Oil, for frying",
+      "Salt, to taste",
+      "Lime wedges, for serving"
+    ],
+    "steps": [
+      "Season fish with salt and chili powder.",
+      "Coat fish lightly with flour.",
+      "Fry fish until golden and crisp.",
+      "Mix cabbage, mayonnaise, and lime juice to make slaw.",
+      "Warm the tortillas.",
+      "Fill tortillas with fish and cabbage slaw.",
+      "Serve with lime wedges."
+    ]
   },
   {
     "id": "r21",
@@ -354,7 +745,27 @@
     "rating": 4.9,
     "isPopular": true,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1617093727343-374698b1b08d"
+    "imageUrl": "https://images.unsplash.com/photo-1617093727343-374698b1b08d",
+    "ingredients": [
+      "2 packs ramen noodles",
+      "4 cups chicken or pork broth",
+      "2 soft-boiled eggs",
+      "150 g sliced pork or chicken",
+      "1 cup mushrooms",
+      "2 tbsp soy sauce",
+      "1 tbsp miso paste",
+      "Spring onions, chopped",
+      "Nori sheets, optional"
+    ],
+    "steps": [
+      "Heat broth in a pot and stir in soy sauce and miso paste.",
+      "Add mushrooms and simmer until tender.",
+      "Cook ramen noodles separately according to package instructions.",
+      "Place noodles in serving bowls.",
+      "Pour hot broth over the noodles.",
+      "Top with sliced meat, soft-boiled eggs, spring onions, and nori.",
+      "Serve hot."
+    ]
   },
   {
     "id": "r22",
@@ -371,7 +782,25 @@
     "rating": 4.5,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947"
+    "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947",
+    "ingredients": [
+      "6 falafel balls",
+      "2 flatbreads or wraps",
+      "1 cup lettuce",
+      "1 tomato, sliced",
+      "1/2 cucumber, sliced",
+      "1/4 cup tahini sauce",
+      "1 tbsp lemon juice",
+      "Pickles, optional"
+    ],
+    "steps": [
+      "Warm the flatbreads in a pan.",
+      "Heat falafel until crisp and warm.",
+      "Spread tahini sauce over each wrap.",
+      "Add lettuce, tomato, cucumber, falafel, and pickles.",
+      "Drizzle with lemon juice.",
+      "Roll tightly and serve."
+    ]
   },
   {
     "id": "r23",
@@ -388,7 +817,30 @@
     "rating": 4.8,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1515443961218-a51367888e4b"
+    "imageUrl": "https://images.unsplash.com/photo-1515443961218-a51367888e4b",
+    "ingredients": [
+      "2 cups short-grain rice",
+      "500 g mixed seafood",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1 tomato, chopped",
+      "1/2 tsp saffron threads",
+      "4 cups seafood stock",
+      "1/2 cup peas",
+      "2 tbsp olive oil",
+      "Salt and pepper, to taste",
+      "Lemon wedges"
+    ],
+    "steps": [
+      "Heat olive oil in a wide pan and sauté onion and garlic.",
+      "Add tomato and cook until softened.",
+      "Stir in rice and saffron.",
+      "Pour in seafood stock and season with salt and pepper.",
+      "Simmer without stirring until the rice absorbs most of the liquid.",
+      "Add seafood and peas on top.",
+      "Cover and cook until seafood is done and rice is tender.",
+      "Rest for a few minutes and serve with lemon wedges."
+    ]
   },
   {
     "id": "r24",
@@ -405,7 +857,29 @@
     "rating": 4.9,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1585937421612-70a008356fbe"
+    "imageUrl": "https://images.unsplash.com/photo-1585937421612-70a008356fbe",
+    "ingredients": [
+      "600 g lamb pieces",
+      "2 onions, sliced",
+      "3 cloves garlic, minced",
+      "1 tbsp ginger, grated",
+      "1 cup yogurt",
+      "2 tbsp oil or ghee",
+      "1 tbsp ground coriander",
+      "1 tsp cumin",
+      "1 tsp paprika",
+      "1 tsp garam masala",
+      "Salt, to taste"
+    ],
+    "steps": [
+      "Heat oil or ghee in a pot and brown the lamb pieces.",
+      "Remove lamb and sauté onions until golden.",
+      "Add garlic, ginger, and spices and cook until fragrant.",
+      "Return lamb to the pot and stir well.",
+      "Add yogurt gradually while stirring.",
+      "Cover and simmer until lamb is tender.",
+      "Adjust seasoning and serve with rice or naan."
+    ]
   },
   {
     "id": "r25",
@@ -422,7 +896,28 @@
     "rating": 4.6,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947"
+    "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947",
+    "ingredients": [
+      "400 g beef strips",
+      "250 g pasta or egg noodles",
+      "1 onion, sliced",
+      "200 g mushrooms, sliced",
+      "1 cup sour cream",
+      "1 cup beef stock",
+      "1 tbsp flour",
+      "2 tbsp butter",
+      "Salt and pepper, to taste",
+      "Fresh parsley, chopped"
+    ],
+    "steps": [
+      "Cook pasta or noodles according to package instructions.",
+      "Season beef with salt and pepper.",
+      "Brown beef quickly in butter, then remove from pan.",
+      "Sauté onion and mushrooms until softened.",
+      "Stir in flour, then add beef stock and simmer until thickened.",
+      "Return beef to the pan and stir in sour cream.",
+      "Serve over pasta and garnish with parsley."
+    ]
   },
   {
     "id": "r26",
@@ -439,7 +934,24 @@
     "rating": 4.8,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2"
+    "imageUrl": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2",
+    "ingredients": [
+      "2 black cod fillets",
+      "3 tbsp white miso paste",
+      "2 tbsp mirin",
+      "2 tbsp sake or water",
+      "1 tbsp sugar",
+      "1 tsp oil",
+      "Spring onions, optional"
+    ],
+    "steps": [
+      "Mix miso paste, mirin, sake, and sugar to make the marinade.",
+      "Coat cod fillets with the marinade.",
+      "Marinate for at least 20 minutes, or longer if possible.",
+      "Wipe off excess marinade before cooking.",
+      "Sear or bake the cod until caramelized and cooked through.",
+      "Garnish with spring onions and serve."
+    ]
   },
   {
     "id": "r27",
@@ -456,7 +968,28 @@
     "rating": 4.7,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783"
+    "imageUrl": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783",
+    "ingredients": [
+      "500 g chicken thighs",
+      "2 tbsp yogurt",
+      "2 tbsp lemon juice",
+      "2 cloves garlic, minced",
+      "1 tsp cumin",
+      "1 tsp paprika",
+      "1/2 tsp turmeric",
+      "1/2 tsp cinnamon",
+      "Salt and pepper, to taste",
+      "Pita bread",
+      "Garlic sauce, for serving"
+    ],
+    "steps": [
+      "Marinate chicken with yogurt, lemon juice, garlic, spices, salt, and pepper.",
+      "Let it rest for at least 20 minutes.",
+      "Cook chicken in a pan or grill until fully cooked and slightly charred.",
+      "Slice the chicken into strips.",
+      "Warm pita bread.",
+      "Serve chicken with garlic sauce and preferred vegetables."
+    ]
   },
   {
     "id": "r28",
@@ -473,7 +1006,27 @@
     "rating": 4.8,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1526318896980-cf78c088247c"
+    "imageUrl": "https://images.unsplash.com/photo-1526318896980-cf78c088247c",
+    "ingredients": [
+      "500 ml chicken or seafood stock",
+      "200 g shrimp, peeled",
+      "2 stalks lemongrass, bruised",
+      "4 kaffir lime leaves",
+      "3 slices galangal",
+      "2 tbsp fish sauce",
+      "2 tbsp lime juice",
+      "1 tsp chili paste",
+      "100 g mushrooms",
+      "Fresh coriander, for garnish"
+    ],
+    "steps": [
+      "Bring stock to a simmer in a pot.",
+      "Add lemongrass, kaffir lime leaves, and galangal.",
+      "Simmer for a few minutes to release fragrance.",
+      "Add mushrooms and shrimp and cook until shrimp turns pink.",
+      "Season with fish sauce, lime juice, and chili paste.",
+      "Garnish with coriander and serve hot."
+    ]
   },
   {
     "id": "r29",
@@ -490,7 +1043,30 @@
     "rating": 4.9,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1619895092538-128341789043"
+    "imageUrl": "https://images.unsplash.com/photo-1619895092538-128341789043",
+    "ingredients": [
+      "12 lasagna sheets",
+      "500 g ground beef",
+      "2 cups tomato sauce",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "2 cups ricotta cheese",
+      "2 cups mozzarella cheese",
+      "1/2 cup parmesan cheese",
+      "1 tbsp olive oil",
+      "Salt and pepper, to taste"
+    ],
+    "steps": [
+      "Preheat the oven to 180°C.",
+      "Heat olive oil and sauté onion and garlic.",
+      "Add ground beef and cook until browned.",
+      "Stir in tomato sauce and simmer briefly.",
+      "Spread a layer of meat sauce in a baking dish.",
+      "Layer lasagna sheets, ricotta, meat sauce, and mozzarella.",
+      "Repeat layers and finish with mozzarella and parmesan.",
+      "Bake until bubbling and golden.",
+      "Rest before slicing and serving."
+    ]
   },
   {
     "id": "r30",
@@ -507,6 +1083,25 @@
     "rating": 4.6,
     "isPopular": false,
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1559847844-d721426d6edc"
+    "imageUrl": "https://images.unsplash.com/photo-1559847844-d721426d6edc",
+    "ingredients": [
+      "300 g fresh white fish, diced",
+      "1/2 cup lime juice",
+      "1/2 red onion, thinly sliced",
+      "1 chili, chopped",
+      "1/2 cucumber, diced",
+      "1 tomato, diced",
+      "Fresh coriander, chopped",
+      "Salt and pepper, to taste",
+      "Tortilla chips, optional"
+    ],
+    "steps": [
+      "Place diced fish in a bowl and cover with lime juice.",
+      "Refrigerate until the fish turns opaque.",
+      "Drain excess lime juice if needed.",
+      "Mix in red onion, chili, cucumber, tomato, and coriander.",
+      "Season with salt and pepper.",
+      "Serve chilled with tortilla chips if desired."
+    ]
   }
 ]
