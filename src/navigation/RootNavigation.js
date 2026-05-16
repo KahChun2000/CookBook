@@ -32,7 +32,7 @@ function AppTabs() {
       tabBar={props => <CustomTabBar {...props} />}
       screenOptions={{ headerShown: false }}>
       <Tab.Screen name="Home" component={HomeScreen} />
-      <Tab.Screen name="Recipe" component={Recipe} />
+      <Tab.Screen name="Recipes" component={Recipe} />
       <Tab.Screen name="Shop" component={Shop} />
       <Tab.Screen name="Profile" component={Profile} />
     </Tab.Navigator>

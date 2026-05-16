@@ -130,7 +130,7 @@ export default function CustomTabBar({ state, descriptors, navigation }) {
         switch (routeName) {
             case 'Home':
                 return 'home-outline';
-            case 'Recipe':
+            case 'Recipes':
                 return 'fast-food-outline';
             case 'Shop':
                 return 'storefront-outline';
