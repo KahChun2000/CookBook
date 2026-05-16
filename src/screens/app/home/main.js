@@ -5,6 +5,7 @@ import Carousel from "react-native-reanimated-carousel";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import Recipe from '../../../../recipetypes.json'
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { useNavigation } from '@react-navigation/native';
 
 const { width } = Dimensions.get('window');
 
@@ -14,7 +15,7 @@ const Dashboard = () => {
 
     return (
         <GestureHandlerRootView style={{ flex: 1, backgroundColor: "#f8f8f8" }}>
-            <Header />
+            <Header isHomeTab={true} />
             <ScrollView style={{ flex: 1 }} contentContainerStyle={{ paddingTop: 20, paddingBottom: 120 + insets.bottom }}>
                 <Banner recipes={Recipe} />
                 <Categories recipes={Recipe} />
@@ -27,11 +28,12 @@ const Dashboard = () => {
 const Banner = ({ recipes }) => {
 
     const featuredRecipes = recipes.filter(item => item.isFeatured);
+    const navigation = useNavigation();
 
     return (
         <View>
             <Carousel
-                height={500}
+                height={450}
                 width={width}
                 data={featuredRecipes}
                 mode="horizontal-stack"
@@ -66,7 +68,7 @@ const Banner = ({ recipes }) => {
                                 <Text style={styles.title}>{item.name}</Text>
                                 <Text style={styles.description}>{item.description}</Text>
 
-                                <TouchableOpacity style={styles.button}>
+                                <TouchableOpacity style={styles.button} activeOpacity={0.9} onPress={() => navigation.navigate('RecipeDetail', { recipe: item })}>
                                     <Text style={styles.buttonText}>🍴 Start Cooking</Text>
                                 </TouchableOpacity>
                             </View>
@@ -80,7 +82,7 @@ const Banner = ({ recipes }) => {
 }
 
 const Categories = ({ recipes }) => {
-    // get unique categories from recipes
+    const navigation = useNavigation();
     const categories = [...new Set(recipes.map(item => item.category))];
 
     const categoryImages = {
@@ -111,9 +113,6 @@ const Categories = ({ recipes }) => {
         <View style={styles.container}>
             <View style={styles.sectionHeader}>
                 <Text style={styles.sectionTitle}>Quick Categories</Text>
-                <TouchableOpacity>
-                    <Text style={styles.sectionViewAll}>View All</Text>
-                </TouchableOpacity>
             </View>
             <FlatList
                 horizontal
@@ -122,9 +121,15 @@ const Categories = ({ recipes }) => {
                 showsHorizontalScrollIndicator={false}
                 contentContainerStyle={{ paddingHorizontal: 20 }}
                 renderItem={({ item }) => (
-                    <TouchableOpacity style={styles.categoriesItem}>
+                    <TouchableOpacity
+                        style={styles.categoriesItem}
+                        onPress={() =>
+                            navigation.navigate('Recipes', {
+                                category: item.name,
+                            })
+                        }
+                    >
                         <Image source={{ uri: item.image }} style={styles.categoriesImage} />
-
                         <Text style={styles.categoriesTitle}>{item.name}</Text>
                     </TouchableOpacity>
                 )}
@@ -134,14 +139,20 @@ const Categories = ({ recipes }) => {
 };
 
 const PopularFood = ({ recipes }) => {
-
+    const navigation = useNavigation();
     const popularRecipes = recipes.filter(item => item.isPopular);
 
     return (
         <View style={styles.container}>
             <View style={styles.sectionHeader}>
                 <Text style={styles.sectionTitle}>Popular Recipe</Text>
-                <TouchableOpacity>
+                <TouchableOpacity
+                    onPress={() =>
+                        navigation.navigate('Recipes', {
+                            isPopular: true,
+                        })
+                    }
+                >
                     <Text style={styles.sectionViewAll}>View All</Text>
                 </TouchableOpacity>
             </View>
@@ -152,6 +163,7 @@ const PopularFood = ({ recipes }) => {
                     <TouchableOpacity
                         activeOpacity={0.9}
                         style={styles.recipeCard}
+                        onPress={() => navigation.navigate('RecipeDetail', { recipe: item })}
                     >
                         <Image
                             source={{ uri: item.imageUrl }}
@@ -199,7 +211,7 @@ export default Dashboard
 const styles = StyleSheet.create({
     card: {
         width: width - 32,
-        height: 500,
+        height: 450,
         alignSelf: 'center',
         borderRadius: 18,
         overflow: 'hidden',
@@ -307,7 +319,7 @@ const styles = StyleSheet.create({
         position: 'absolute',
         top: 14,
         left: 14,
-        backgroundColor: '#fff',
+        backgroundColor: '#F8FFF2',
         borderRadius: 20,
         paddingHorizontal: 12,
         paddingVertical: 6,
@@ -331,7 +343,7 @@ const styles = StyleSheet.create({
     },
 
     recipeName: {
-        fontSize: 18,
+        fontSize: 16,
         fontWeight: '700',
         color: '#222',
         flex: 1,
@@ -352,7 +364,7 @@ const styles = StyleSheet.create({
     },
 
     recipeDescription: {
-        fontSize: 14,
+        fontSize: 12,
         lineHeight: 22,
         color: '#666',
     },

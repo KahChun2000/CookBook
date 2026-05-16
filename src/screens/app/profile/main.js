@@ -5,7 +5,7 @@ import Header from '../../../components/header'
 const Profile = () => {
     return (
         <View style={{ flex: 1 }}>
-            <Header />
+            <Header isHomeTab={true} />
             <Text>Profile</Text>
         </View>
     )

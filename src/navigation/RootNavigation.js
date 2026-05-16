@@ -10,6 +10,7 @@ import LoginScreen from '../screens/auth/login';
 import SignupScreen from '../screens/auth/register';
 import HomeScreen from '../screens/app/home/main';
 import Recipe from '../screens/app/recipe/main';
+import RecipeDetail from '../screens/app/recipe/detail';
 import Shop from '../screens/app/shop/main';
 import Profile from '../screens/app/profile/main';
 
@@ -43,6 +44,7 @@ function AppNavigator() {
   return (
     <AppStack.Navigator screenOptions={{ headerShown: false }}>
       <AppStack.Screen name="Home" component={AppTabs} />
+      <AppStack.Screen name="RecipeDetail" component={RecipeDetail} />
     </AppStack.Navigator>
   );
 }
