@@ -1,5 +1,7 @@
 import React, { createContext, useEffect, useMemo, useState } from 'react';
 import auth, { FirebaseAuthTypes } from '@react-native-firebase/auth';
+import { UserActions } from '../../redux/actions';
+import { useDispatch } from 'react-redux';
 
 export type AuthContextType = {
   user: FirebaseAuthTypes.User | null;
@@ -20,21 +22,26 @@ export const AuthContext = createContext<AuthContextType>({
 export const AuthProvider: React.FC<React.PropsWithChildren> = ({
   children,
 }) => {
+  const dispatch = useDispatch();
   const [user, setUser] = useState<FirebaseAuthTypes.User | null>(null);
   const [booting, setBooting] = useState(true);
 
   useEffect(() => {
     const unsub = auth().onAuthStateChanged(u => {
       setUser(u);
+      if (u) {
+        dispatch(
+          UserActions.loginAction({
+            uid: u.uid,
+            email: u.email,
+            displayName: u.displayName,
+          }),
+        );
+      }
       setBooting(false);
     });
     return unsub;
   }, []);
-
-  const refreshUser = async () => {
-    await auth().currentUser?.reload();
-    setUser(auth().currentUser);
-  };
 
   const value = useMemo<AuthContextType>(
     () => ({
@@ -60,6 +67,7 @@ export const AuthProvider: React.FC<React.PropsWithChildren> = ({
 
       async logout() {
         await auth().signOut();
+        dispatch(UserActions.logoutAction());
       },
     }),
     [user, booting],
