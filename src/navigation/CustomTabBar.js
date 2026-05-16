@@ -106,7 +106,7 @@ function TabButton({
                     },
                     labelStyle,
                 ]}>
-                {route.name}
+                {route.name === 'MyRecipe' ? 'My Recipe' : route.name}
             </Animated.Text>
         </TouchableOpacity>
     );
@@ -132,8 +132,8 @@ export default function CustomTabBar({ state, descriptors, navigation }) {
                 return 'home-outline';
             case 'Recipes':
                 return 'fast-food-outline';
-            case 'Shop':
-                return 'storefront-outline';
+            case 'MyRecipe':
+                return 'book-outline';
             case 'Profile':
                 return 'person-outline';
             default:

@@ -141,10 +141,6 @@ const Login = ({ navigation }) => {
                                     loading={submitting}
                                 />
 
-                                <TouchableOpacity>
-                                    <Text style={styles.forgotText}>Forgot Password?</Text>
-                                </TouchableOpacity>
-
                                 <View style={styles.divider} />
 
                                 <View style={styles.footer}>

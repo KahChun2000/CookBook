@@ -11,7 +11,8 @@ import SignupScreen from '../screens/auth/register';
 import HomeScreen from '../screens/app/home/main';
 import Recipe from '../screens/app/recipe/main';
 import RecipeDetail from '../screens/app/recipe/detail';
-import Shop from '../screens/app/shop/main';
+import MyRecipe from '../screens/app/recipe/myRecipe';
+import RecipeForm from '../screens/app/recipe/form';
 import Profile from '../screens/app/profile/main';
 
 const AuthStack = createNativeStackNavigator();
@@ -34,7 +35,7 @@ function AppTabs() {
       screenOptions={{ headerShown: false }}>
       <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="Recipes" component={Recipe} />
-      <Tab.Screen name="Shop" component={Shop} />
+      <Tab.Screen name="MyRecipe" component={MyRecipe} />
       <Tab.Screen name="Profile" component={Profile} />
     </Tab.Navigator>
   );
@@ -45,6 +46,7 @@ function AppNavigator() {
     <AppStack.Navigator screenOptions={{ headerShown: false }}>
       <AppStack.Screen name="Home" component={AppTabs} />
       <AppStack.Screen name="RecipeDetail" component={RecipeDetail} />
+      <AppStack.Screen name="RecipeForm" component={RecipeForm} />
     </AppStack.Navigator>
   );
 }

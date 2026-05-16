@@ -14,7 +14,7 @@ const Dashboard = () => {
     const insets = useSafeAreaInsets();
 
     return (
-        <GestureHandlerRootView style={{ flex: 1, backgroundColor: "#f8f8f8" }}>
+        <GestureHandlerRootView style={{ flex: 1, backgroundColor: "#FAF8EF" }}>
             <Header isHomeTab={true} />
             <ScrollView style={{ flex: 1 }} contentContainerStyle={{ paddingTop: 20, paddingBottom: 120 + insets.bottom }}>
                 <Banner recipes={Recipe} />
